@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Interfaz de la aplicación-->
+
+<body>
+    <div class="container">
+        <h1>Conecta tu cuenta de Spotify</h1>
+        <button id="login-button">Iniciar sesión con Spotify</button>
+
+        <div id="top-tracks" style="display: none;">
+            <h2>Tus 5 canciones más escuchadas</h2>
+            <ul id="tracks-list"></ul>
+        </div>
+
+        <div id="playlists" style="display: none;">
+            <h2>Tus listas de reproducción</h2>
+            <ul id="playlists-list"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

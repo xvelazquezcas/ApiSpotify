@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo de la vista en la interfaz*/
+body {
+    font-family: 'Arial', sans-serif;   
+    width: 100%; 
+    min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(To top right,#082501 20%, #3be674 80%,  #7fcca5 100%);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #fff;
+    color: #10a846;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0f2509;
+}
+
+ul {
+    list-style-type: none;
+}
